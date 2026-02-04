@@ -1,0 +1,49 @@
+.navBar {
+  background-color: #205691;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  ul {
+    border: solid red;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  a{
+    color: #FFFFFF;
+    font-size: 1.15rem;
+
+  }
+
+
+  .imgPerfil {
+    height: 12vh;
+    width: 6vw;
+    border-radius: 100%;
+    border: solid #00aaff 5px;
+  }
+}
+
+@media (min-width:201px) and (max-width:500px) {
+
+    .navBar {
+        background-color: #00aaff;
+        a {
+            font-size: 0.65rem;
+            color: black;
+        }
+
+        .logo {
+            width: 5;
+
+        }
+
+        imgPerfil{
+            height: 10vh;
+            width: 8vh;
+
+        }
+    }
+}
