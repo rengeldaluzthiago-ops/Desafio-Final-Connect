@@ -1,13 +1,12 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-//importando todos os componentes para serem usados nas rotas
+
 
 import Inicio from "../Início/Inicio";
 import Acoes from "../AçõesDaConnect/AcoesDaConnect";
 import QuemSomos from "../QuemSomos/QuemSomos";
 import Perfil from "../Perfil/Perfil";
 import Logo from "../../assets/logo.png";
-
-import styles from "./NavBar.module.scss"
+import styles from "./NavBar.module.scss";
 
 function NavBar() {
 
@@ -32,7 +31,7 @@ function NavBar() {
           </li>
         </ul>
         <Link to="/perfil">
-          <img src="FotoDoPerfil"alt="Foto do perfil" />
+          <img src=""alt="" />
         </Link>
       </nav>
       <Routes>
