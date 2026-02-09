@@ -3,7 +3,7 @@ function Perfil() {
   return (
     <section className={styles.containerTelaPerfil}>
       <article>
-        <img src="src/assets/foto minha.jpeg" alt="src/assets/foto minha.jpeg" />
+        <img src="src/assets/foto.jpg" alt="src/assets/foto.jpg" />
         <div className={styles.cardInfo}>
           <h2> Thiago Rengel </h2>
           <h3> Voluntário Ativo</h3>

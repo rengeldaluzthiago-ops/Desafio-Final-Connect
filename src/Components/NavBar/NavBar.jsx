@@ -31,7 +31,7 @@ function NavBar() {
           </li>
         </ul>
         <Link to="/perfil">
-          <img src=""alt="" />
+          <img src="src/assets/foto.jpg"alt="src/assets/foto.jpg" />
         </Link>
       </nav>
       <Routes>
