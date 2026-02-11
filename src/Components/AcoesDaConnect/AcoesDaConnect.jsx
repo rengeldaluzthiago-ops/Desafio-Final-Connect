@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState} from "react";
 import Mutirao from "../../assets/mutirao.png";
 import Aulas from "../../assets/aulas.png";
 import Esporte from "../../assets/esporte.png";
@@ -7,9 +7,7 @@ import Futuro from "../../assets/futuro.png";
 import Conecta from "../../assets/conecta.png";
 import styles from "./AcoesDaConnect.module.scss";
 function AcoesDaConnect() {
-  // [] array / lista
-  // {} objetos
-  // [ {}, {}, {}, {}, {}, {} ] array de objetos
+
   const [cards, setCards] = useState([
     {
       id: 1,

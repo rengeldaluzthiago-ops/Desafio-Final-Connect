@@ -1,8 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-
-
-import Inicio from "../Início/Inicio";
-import Acoes from "../AçõesDaConnect/AcoesDaConnect";
+import Inicio from "../Inicio/Inicio";
+import Acoes from "../AcoesDaConnect/AcoesDaConnect";
 import QuemSomos from "../QuemSomos/QuemSomos";
 import Perfil from "../Perfil/Perfil";
 import Logo from "../../assets/logo.png";
@@ -31,7 +29,7 @@ function NavBar() {
           </li>
         </ul>
         <Link to="/perfil">
-          <img src="src/assets/foto.jpg"alt="src/assets/foto.jpg" />
+          <img className={styles.imgPerfil} src="src/assets/foto.jpg"alt="src/assets/foto.jpg" />
         </Link>
       </nav>
       <Routes>

@@ -1,0 +1,61 @@
+footer{
+    background-color: #205691;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    color: #FFFFFF;
+
+div{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+}
+p{
+
+    width: 25%;
+    font-weight: 400;
+    text-align: center;
+}
+nav{
+
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+@media (min-width: 201px) and (max-width: 500px) {
+
+footer{
+flex-direction: column-reverse;
+    height: 35vh;
+
+
+div{
+    border: solid red;
+    width: 60%;
+h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+}
+p{
+    border: solid white;
+    width: 90%;
+
+}
+nav{
+    border: solid red;
+    width: 80%;
+
+}
+}
+
+}
